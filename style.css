@@ -38,31 +38,31 @@ main {
     padding: 0 20px;
 }
 
-.contenido {
+.seccion_principal {
     background: white;
     padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
 }
 
-.contenido h2 {
+.seccion_principal h2 {
     color: #2c3e50;
     margin-top: 0;
 }
 
 /* Hero */
-.hero {
+.zona_bienvenida {
     background: white;
     padding: 30px;
     border: 1px solid #ddd;
     text-align: center;
 }
 
-.hero h2 {
+.zona_bienvenida h2 {
     color: #2c3e50;
 }
 
-.btn-primary {
+.boton_primario {
     background: #2c3e50;
     color: white;
     padding: 10px 20px;
@@ -70,37 +70,37 @@ main {
     cursor: pointer;
 }
 
-.btn-primary:hover {
+.boton_primario:hover {
     background: #34495e;
 }
 
 /* Features */
-.features {
+.contenedor_caracteristicas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.feature-card {
+.tarjeta_caracteristica {
     background: white;
     padding: 20px;
     border: 1px solid #ddd;
     text-align: center;
 }
 
-.feature-card h3 {
+.tarjeta_caracteristica h3 {
     color: #2c3e50;
 }
 
 /* Info */
-.info-section {
+.zona_informacion {
     background: white;
     padding: 20px;
     border: 1px solid #ddd;
 }
 
-.info-section ol {
+.zona_informacion ol {
     margin-left: 20px;
 }
 
@@ -138,7 +138,7 @@ footer {
 
 /* Mobile */
 @media (max-width: 768px) {
-    .features {
+    .contenedor_caracteristicas {
         grid-template-columns: 1fr;
     }
     
